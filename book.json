@@ -1,3 +1,13 @@
 {
-  "root": "./docs"
+  "root": "./docs",
+  "plugins": [
+    "edit-link",
+    "-sharing"
+  ],
+  "pluginsConfig": {
+    "structured-toc": {},
+    "edit-link": {
+      "base": "https://github.com/lanwen/selenoid/edit/master/docs"
+    }
+  }
 }
